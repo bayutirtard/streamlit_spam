@@ -47,5 +47,5 @@ if st.button('Prediksi'):
 
     percent = ((1 - (prediction[0][0])) * 100)
     st.write(f'Prediksi: {result}')
-    st.write(f'Presentasi Spam: {percent:.2f}%')
+    st.write(f'Persenentase Spam: {percent:.2f}%')
 
